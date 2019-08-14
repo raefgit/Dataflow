@@ -5,7 +5,6 @@ from google.cloud.language import enums
 from google.cloud.language import types
 
 
-PROJECT = 'elite-impact-224414'
 schema = 'name : STRING, id : STRING, date : STRING,title : STRING, text: STRING,magnitude : STRING, score : STRING'
 src_path = "gs://amazoncustreview/sentimentSource.csv"
 
